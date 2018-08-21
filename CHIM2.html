@@ -1,0 +1,270 @@
+<!Doctype HTML>
+<HTML>
+<!--my first web development project-->
+<Header>
+<Title> CHIM'S WEBSITE </Title>
+
+<meta name = "description"
+content = "Page on web development and GIS"/>
+<meta name = "keywords"
+content = "GIS,Web development,Buckys"/>
+
+<style type = "text/CSS">
+h1 {color : RGB(102,205,170);
+    background-color: Blue;
+    opacity: 0.06;}
+body{background-color: RGB(120,169,97)}
+P{color : Green;
+background-color:Red;}
+.first{background-color:#333;
+       margin:auto;}
+.second{width = 80%
+        margin = auto;}       
+</style>
+
+</Header>
+
+<!--adding the body tags-->
+<Body>
+<iframe src = "pic1.PNG"
+Width = 450
+Height = 350
+seamless = "seamless">
+</iframe>
+
+<div id = "div1">
+<!--first form control-->
+<form action = "index2.html" method = "get">
+<label><H1 id ="myser" >SEARCH</H1><input type = "Search" name = "sear" placeholder = "Enter keyword"/></label>
+<input type = "submit" name = "subm" value = "SEARCH" />
+</form>
+<!--end of form control-->
+
+<h1 id = "top">MY WEBSITE</h1>
+<hr />
+
+<video
+src = "ArcGIS model builder.mp4" 
+poster="pic1.PNG"
+width="400" height="300"
+preload = "none"
+controls>
+</video>
+
+<audio 
+src = "05 Perfect.mp3"
+poster = "pic1.PNG"
+controls
+loop
+preload = "None">
+</audio>
+
+<div class = "first">
+<p>Hello, My name is Chimwemwe. I am a <em>web developer</em>. <q>This is my <i>portfolio</i> website</q>. It is also my 1<sup>st</sup> website. <br>I enjoy web development</br>
+<br>I also love to drink <del>H<sub>2</sub>O</del> <ins>Beer</ins>.</br>
+</p>
+
+<p><abbr title = "Geographic Information System">GIS</abbr> is an interesting field</p>
+<p>To go to the top of the web page click <a href = #top>Here</a></p>
+
+<hr />
+
+<img src ="pic1.PNG" alt="Planet" title = "Earth" height = "100" width = "1500" />
+
+<!--my first list-->
+<ol>
+    <li>Arcgis</li>
+    <li>Qgis</li>
+    <li>Postgresql</li>
+    <li>Oracle spatial</li>
+</ol>
+
+<div class = "Second">
+<dl>
+<dt>Web browser</dt>
+<dd>An application that runs on a computer to connect to <br/>servers on the web and surf on the net. For more information, use <a href = "HTTP://WWW.Google.com" target="_blank">Google</a> </dd>
+</dl>
+</div>
+
+<img src ="pic1.PNG" alt="Planet" title = "Earth" height = "100" width = "1500" />
+
+<p>My other web page, known as bucky's, can be found <a href = "index2.html" target = "_blank">Here</a></p>
+
+<p>I want you to visit Bucky's website. It can be accessed <a href = "index2.html" target ="_blank">Here</a></p>
+</div>
+
+
+<table border = "2">
+    <tr>
+    <th scope= "col" colspan = "4">TV SHOWS AND CHANNELS</th>
+    </tr>
+    <tr>
+    <th scope = "col">TIME</th>
+    <th scope = "col">ABC</th>
+    <th scope = "col">BBC</th>
+    <th scope = "col">CNN</th>
+    </tr>
+    <tr>
+    <th scope="row">6:00-7:00</th>
+    <td>Movie</td>
+    <td>Songs</td>
+    <td>Comedy</td>
+    </tr>
+    <tr>
+    <th scope ="row" >7:00-8:00:</th>
+    <td>WWE</td>
+    <td>Football</td>
+    <td>Sitcom</td>
+    </tr>
+    <tr>
+    <th scope = "row">8:00-9:00:</th>
+    <td>Disney</td>
+    <td>Robby</td>
+    <td>Kitchen</td>
+    </tr>    
+</table>
+<br/>
+<table border = "5">
+<thead>
+<th>Date</th>
+<th>Amount</th>
+<th>Expense</th>
+<th>Total</th>
+</thead>
+<tbody>
+<tr>
+    <td>21 January</td>
+    <td>K200</td>
+    <td>K100</td>
+    <td rowspan ="4"></td>
+</tr>
+<tr>
+    <td>22 April</td>
+    <td>K500</td>
+    <td>K300</td>
+</tr>
+<tr>
+    <td>22 March</td>
+    <td>K600</td>
+    <td>K400</td>
+</tr>            
+</tbody>
+<tfoot>
+    <tr>
+        <td scope = "row">Total</td>
+        <td>K1400</td>
+        <td>K800</td>
+        <td>K3200</td>
+    </tr>
+</tfoot>
+</table>
+<br/>
+
+<table border = "5">
+<th>Name</th>
+<th>Age</th>
+<tr>
+    <td>Chimwemwe</td>
+    <td>23</td>
+</tr>
+</table>
+
+</br>
+
+<form action = "index2.html" method  = "Post" >
+    <p>This is where the form is gonna be</p>
+            Username:<input type = "Text" name = "Username"/>
+            Password:<input type = "password" name ="password"/>
+    <input type = "Submit" Value = "Login"/>
+</br>
+
+<form action = "index2.html" method = "post">
+<textarea name = "comments" rows ="4" cols="20">Enter your comments</textarea>
+<input type = "submit" value = "Send"/>
+</form>
+
+<form action = "index2.html" method = "Get">
+    <input id = "first" type = "radio" name = "Genre" value = "Jazz" checked />
+     <label for = "first">Jazz</label>
+    <input id = "second" type = "radio" name = "Genre" value = "Classical" />
+     <label for = "second">Classical</label>
+    <input id = "third" type = "radio" name = "Genre" value = "Pop" />
+     <label for = "third">Pop</label>
+</form>
+
+<form action = "index2.html" method = "Post">
+    <P><input type = "Checkbox" name = "Service" value = "itunes" checked />itunes</P>
+    <P><input type = "Checkbox" name = "Service" value = "Spotify"/>Spotify</P>
+    <P><input type = "Checkbox" name = "Service" value = "Lastfm"/>Lastfm</P>
+</form>
+
+
+<form>
+    <select name = "Devices" size = "2" multiple= "Multiple">
+        <option value = "Samsung" selected >Samsung</option>
+        <option value = "Nokia">Nokia</option>
+        <option value = "Huawei">Huawei</option>
+    </select>
+</form>
+
+<form>
+    <select name = "Food" >
+        <option value = "Eggs" > Eggs</option>
+        <option value = "Sausages" > Sausages</option>
+        <option value = "Meat-balls" > Meat-Balls</option>
+    </select>
+</form>
+
+<p>To search click<a href = "#myser">Here</a></p>
+<form>
+    <select name = "devices">
+        <option value = "Nokia">Nokia</option>
+        <option value ="Samsung">Samsung</option>
+        <option value="Huawei" >Huawei</option>
+    </select>
+</form>
+
+<br/>
+
+<form action = "index2.html" method = "Post">
+    <p>Upload your song</p>
+    <input type = "File" name = "Music">
+    <input type = "submit" value ="Upload">
+</form>
+
+<form action = "index2.html">
+<p>Enter name:<input type = "text" name = "Myname"/></p>
+<input type= "image" value = "Submit" src = "="pic1.PNG" height ="1" width = "1" />
+</form>
+
+<!--using my first fieldset-->
+<fieldset>
+    <legend>Personal Details</legend>
+         
+        <label for = "myname" >Name</label> 
+        <input id = "myname" type = "text" name = "nam"/>     
+        <label for = "add">Address</label>  
+        <input id ="add" type = "Text" name = "address"/>     
+        <label for = "em">Enter Email</label>
+        <input id = "em" type ="Email" name = "Email" />
+                    
+</fieldset>
+<!--end of fieldset-->
+
+<br/>
+
+<form action = "index2.html" method = "post">
+<input id = "dat" type = "Date" name = "Date"/>
+    <label for = "dat">DATE:</label>
+<input type = "submit" name ="but" value = "Submit" /> 
+</form>
+
+
+
+
+</br><!--breaking the line-->
+
+If you want to go to the top click<a href = #top > Here<a/>
+</Body>
+
+</HTML>
